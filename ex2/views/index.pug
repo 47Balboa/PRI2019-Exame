@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal.w3-margin-top
+        h2 CLAV - Classificação e Avaliação da Informação Pública
+    .w3-card-4
+      header.w3-container.w3-teal.w3-margin-top
+        h4 Lista de Diplomas Legislativos
+      table.w3-table-all
+          tr
+            th Identificador
+            th Data
+            th Tipo
+            th Número
+            th Sumário
+          each d in lista
+              tr 
+                  td
+                     a(href="/" + d.id)=d.id
+                  td= d.data
+                  td= d.tipo
+                  td= d.numero
+                  td= d.sumario
+      footer.w3-container.w3-teal Made by Shahzod Yusupov 
+
+

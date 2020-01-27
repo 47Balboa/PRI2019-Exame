@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "file:/Users/shahzodyusupov/Desktop/pr/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Teste</keyname>
+        <title>Exame de Recurso</title>
+        <subtitle>Processamento e Representaçāo de Informação</subtitle>
+        <bdate>Janeiro 2020</bdate>
+        <edate>Janeiro 2020</edate>
+        <supervisor >
+            <name> José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt </email>
+            <homepage> http://www4.di.uminho.pt/~jcr/ </homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82617</identifier>
+            <name>Shahzod Yusupov</name>
+            <email>a82617@alunos.uminho.pt</email>
+            <photo path="./PRI/TP6/pr/foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Para a pergunta 1 a persistencia de dados foi feita em MongoDB com o comando <b>mongoimport -d obras -c obras --jsonArray obras.json</b></p>
+        <p>Resposta às perguntas: a) 1624, b)324,c)   d)"idLeg":"leg_SPQ6RPHjDULNR7vx-TR7Q" ; "idLeg":"leg_rmw3eKeQndbdIQn8Beyu1", "idLeg":"leg_DW4VStPrIyHqe12gS73u6";
+        "idLeg":"leg_0ZQ15pYZ8XGW8ks7mPD7Y" ; "idLeg":"leg_8ZIOJDonnBbEHkhVysR7W" ;"idLeg":"leg_wEMXUNiLzav0nWrc6lnEe"
+        <p>Para a pergunta 2 basta correr os comandos npm i e npm start </p>
+        
+        <p></p>
+    </abstract>
+    <deliverables>
+        
+    </deliverables>
+</pr>
